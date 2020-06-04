@@ -1,7 +1,27 @@
+
+
+body { background-color: #f58422;
+}
 .menu { font-family: sans-serif ;
-        font-size: 15px
-        color: #f0b35d
+        font-size: 25px;
+        color: #7c79c7;
         font-weight: bold;
           }
+div > h1 {
+  font-weight: inherit;
+  border: 3px solid black;
+  text-align: center;
+}
 
-      
+.titulomed {
+  color: darkgrey;
+  font-weight: bold;
+  text-align: center;
+  }
+
+a::before {
+  content:&#x261B;
+}
+a::selection { background-color: yellow;
+               color: red;
+}

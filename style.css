@@ -10,16 +10,19 @@ div > h1 {
   border: 3px solid black;
   text-align: center;
 }
-
 .titulomed {
   color: darkgrey;
   font-weight: bold;
   text-align: center;
   }
-
 a::before {
   content:&#x261B;
 }
 a::selection { background-color: yellow;
                color: red;
+}
+table { border: 5px solid black;
+  margin: 2px;
+  padding: 2px;
+  
 }

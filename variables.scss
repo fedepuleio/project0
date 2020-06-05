@@ -1,13 +1,15 @@
-$color: #f5c022
+$color: #f5c022;
 
-%parrafo { font-size:25px;
+%parrafo {
+  font-size:25px;
   font-family: arial;
   padding: 5px;
+  border: 1px dotted $color;
 }
 
-.parra1 { @extend %parrafo
-  border: 1px dotted $color
+.parra1 { @extend %parrafo;
+    background-color:#3de3bd;
 }
-.parra2 { @extend %parrafo
-  border: 1px dotted $color
+.parra2 { @extend %parrafo;
+  background-color: #ffd452;
 }

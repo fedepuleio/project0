@@ -1,0 +1,16 @@
+.parra2, .parra1 {
+  font-size: 25px;
+  font-family: arial;
+  padding: 5px;
+  border: 1px dotted #f5c022;
+}
+
+.parra1 {
+  background-color: #3de3bd;
+}
+
+.parra2 {
+  background-color: #ffd452;
+}
+
+/*# sourceMappingURL=variables.css.map */

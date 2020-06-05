@@ -1,35 +1,32 @@
-$color: #708277;
+$color: #636262;
 
 %parrafo {
-  font-size:20px;
-  font-family: helvetica;
- margin-left: auto;
-  padding: 5px;
-  color: $color;
-  text-align: center;
+            font-size:20px;
+            font-family: sans-serif;
+            margin-left: auto;
+            padding: 5px;
+            color: $color;
+            text-align: center;
 }
 
-.parra1 { @extend %parrafo;
-    background-color:#3de3bd;
+.parra1, .parra3 {
+                    @extend %parrafo;
+                    background-color:#cccfcd;
 }
-.parra2 { @extend %parrafo;
-  background-color: #ffd452;
+.parra2, .parra4 {
+                    @extend %parrafo;
+                    background-color:#dbdbdb;
 }
-.parra3 { @extend %parrafo;
-  background-color: #ed5c3b;
-}
-.parra4 { @extend %parrafo;
-  background-color: #e24af0;
-}
-div{
-   h2{ background-color: grey;
-        text-align:center;
-        color:#273c66;
-   }
-    h3 {
-      background-color: Yellow;
-      font-size: bold;
-      text-align: center;
-      color:#276641;
-          }
+
+div   {
+          h2  {     text-align:center;
+                    color:#273c66;
+
+              }
+          h3  {
+                    background-color: #5aad76;
+                    font-size: bold;
+                    text-align: center;
+                    color:#244a34;
+              }
 }

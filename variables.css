@@ -1,38 +1,29 @@
-.parra4, .parra3, .parra2, .parra1 {
+.parra2, .parra4, .parra1, .parra3 {
   font-size: 20px;
-  font-family: helvetica;
+  font-family: sans-serif;
   margin-left: auto;
   padding: 5px;
-  color: #708277;
+  color: #636262;
   text-align: center;
 }
 
-.parra1 {
-  background-color: #3de3bd;
+.parra1, .parra3 {
+  background-color: #cccfcd;
 }
 
-.parra2 {
-  background-color: #ffd452;
-}
-
-.parra3 {
-  background-color: #ed5c3b;
-}
-
-.parra4 {
-  background-color: #e24af0;
+.parra2, .parra4 {
+  background-color: #dbdbdb;
 }
 
 div h2 {
-  background-color: grey;
   text-align: center;
   color: #273c66;
 }
 div h3 {
-  background-color: Yellow;
+  background-color: #5aad76;
   font-size: bold;
   text-align: center;
-  color: #276641;
+  color: #244a34;
 }
 
 /*# sourceMappingURL=variables.css.map */

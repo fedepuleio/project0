@@ -1,31 +1,47 @@
 body { background-color: #f5f2e9;
+  font-family: helvetica;
 }
-.menu { font-family: helvetica ;
-        font-size: 35px;
+ul li { font-size: 22px;
         font-weight: bold;
-          }
+        background-color: yellow
+      }
+ul li:hover { background-color: red;
+  color; yellow;
 
-div > h1 {
-  font-size: 45px
-  font-weight: bold;
+}
+
+div > h1{
+    font-weight: bold;
   border: 10px solid black;
   text-align: center;
   color: red;
-}
+  }
 
-}
 a::before {
   content: \261B;
 }
 a::selection { background-color: yellow;
                color: red;
 }
-table { border: 5px solid black;
+table
+{ border: 5px solid black;
+  border-collapse: collapse;
   margin: 2px;
+  padding: 2px
+  background-color: grey;
+}
+th { border: 5px solid black;
+       border-collapse: collapse;
+  margin: 1px;
   padding: 2px;
-
 }
-
-button { color: blue
-font-size: 35px;
+td { border: 5px solid black;
+       border-collapse: collapse;
+  margin: 1px;
+  padding: 2px;
 }
+#myart {
+font-weight: bold;
+border: 8px solid black;
+text-align: center;
+color: blue

@@ -1,4 +1,4 @@
-.parra2, .parra1 {
+.parra4, .parra3, .parra2, .parra1 {
   font-size: 25px;
   font-family: arial;
   padding: 5px;
@@ -11,6 +11,26 @@
 
 .parra2 {
   background-color: #ffd452;
+}
+
+.parra3 {
+  background-color: #ed5c3b;
+}
+
+.parra4 {
+  background-color: #e24af0;
+}
+
+div h2 {
+  background-color: grey;
+  text-align: center;
+  color: black;
+}
+div h3 {
+  background-color: Yellow;
+  font-size: bold;
+  text-align: center;
+  color: black;
 }
 
 /*# sourceMappingURL=variables.css.map */

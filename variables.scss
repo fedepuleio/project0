@@ -13,3 +13,21 @@ $color: #f5c022;
 .parra2 { @extend %parrafo;
   background-color: #ffd452;
 }
+.parra3 { @extend %parrafo;
+  background-color: #ed5c3b;
+}
+.parra4 { @extend %parrafo;
+  background-color: #e24af0;
+}
+div{
+   h2{ background-color: grey;
+        text-align:center;
+        color:black;
+   }
+    h3 {
+      background-color: Yellow;
+      font-size: bold;
+      text-align: center;
+      color:black;
+          }
+}

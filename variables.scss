@@ -1,10 +1,12 @@
-$color: #f5c022;
+$color: #708277;
 
 %parrafo {
-  font-size:25px;
-  font-family: arial;
+  font-size:20px;
+  font-family: helvetica;
+ margin-left: auto;
   padding: 5px;
-  border: 1px dotted $color;
+  color: $color;
+  text-align: center;
 }
 
 .parra1 { @extend %parrafo;
@@ -22,12 +24,12 @@ $color: #f5c022;
 div{
    h2{ background-color: grey;
         text-align:center;
-        color:black;
+        color:#273c66;
    }
     h3 {
       background-color: Yellow;
       font-size: bold;
       text-align: center;
-      color:black;
+      color:#276641;
           }
 }

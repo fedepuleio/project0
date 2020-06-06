@@ -82,6 +82,7 @@ td  {
               font-family: helvetica;
               font-weight: bold;
               font-size: 20px;
+              text-align: center;
 }
 
 }
@@ -98,5 +99,5 @@ td  {
                 background-color: springgreen;
                 margin: 20px;
                 padding: 20px;
-                width: 200px;
+                width: 250px;
 }

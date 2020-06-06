@@ -74,7 +74,6 @@ td  {
                 color: white;
 }
 #parra5    {
-              background-size: contain;
               background-color: lightgrey;
               margin: auto;
               padding: 10px;
@@ -95,8 +94,7 @@ td  {
 }
 .imagenes > div {
                 background-color: springgreen;
-                font-size: 20px;
                 margin: 20px;
                 padding: 20px;
-                width: 150px;
-            }
+                width: 200px;
+}

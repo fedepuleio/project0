@@ -9,11 +9,11 @@ $color: #636262;
             text-align: center;
 }
 
-.parra1, .parra3 {
+.parra1, .parra3, {
                     @extend %parrafo;
                     background-color:#cccfcd;
 }
-.parra2, .parra4 {
+.parra2, .parra4 ,  {
                     @extend %parrafo;
                     background-color:#dbdbdb;
 }
@@ -21,6 +21,7 @@ $color: #636262;
 div   {
           h2  {     text-align:center;
                     color:#273c66;
+                    text-decoration: underline;
 
               }
           h3  {
@@ -28,5 +29,6 @@ div   {
                     font-size: bold;
                     text-align: center;
                     color:#244a34;
+                    text-decoration: underline;
               }
 }

@@ -14,7 +14,7 @@ ul li :hover  {
 }
 div > h1   {
             font-weight: bold;
-            border: 10px solid black;
+            border: 5px solid black;
             text-align: center;
             color: #d93b3b;
 }
@@ -27,11 +27,14 @@ a::selection  {
 }
 table    {
           border: 5px solid black;
+          margin: 50px;
+          padding: 50px;
           border-collapse: collapse;
           margin: 2px;
-          padding: 2px
-          background-color: grey;
+          padding: 2px;
           text-align: center;
+          font-weight:bold;
+          font-size: 20px;
 }
 th  {
         border: 5px solid black;
@@ -45,6 +48,7 @@ td  {
         margin: 1px;
         padding: 2px;
 }
+
 #myart {
             font-weight: bold;
             border: 8px solid black;
@@ -59,7 +63,7 @@ td  {
           text-decoration: inherit;
           display: inline-block;
           font-family: sans-serif;
-          text-weight: bold;
+          font-weight: bold;
           font-size: 20px;
 }
 #volver:hover {   background-color: #cccfcd;
@@ -68,3 +72,31 @@ td  {
 #volver::selection  {
                 background-color: #424242;
                 color: white;
+}
+#parra5    {
+              background-size: contain;
+              background-color: lightgrey;
+              margin: auto;
+              padding: 10px;
+              font-family: helvetica;
+              font-weight: bold;
+              font-size: 20px;
+}
+
+}
+@media print  {
+                .parra5 {
+                  display: none;
+                }
+}
+.imagenes {
+            display: flex;
+            flex-wrap: wrap;
+}
+.imagenes > div {
+                background-color: springgreen;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 150px;
+            }

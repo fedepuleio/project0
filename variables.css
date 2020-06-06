@@ -18,12 +18,14 @@
 div h2 {
   text-align: center;
   color: #273c66;
+  text-decoration: underline;
 }
 div h3 {
   background-color: #5aad76;
   font-size: bold;
   text-align: center;
   color: #244a34;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=variables.css.map */

@@ -8,11 +8,12 @@
 }
 
 .parra1, .parra3 {
-  background-color: #cccfcd;
+  background-color: #787878;
+  color: white;
 }
 
 .parra2, .parra4 {
-  background-color: #dbdbdb;
+  background-color: #cccccc;
 }
 
 div h2 {

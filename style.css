@@ -2,16 +2,7 @@ body {
           background-color: #f2f2f2;
           font-family: helvetica;
 }
-ul li {
-            font-size: 22px;
-            font-weight: bold;
-            text-align: center;
 
-}
-ul li :hover  {
-              background-color: #cccfcd;
-              color; #636262;
-}
 div > h1   {
             font-weight: bold;
             border: 5px solid black;
@@ -54,9 +45,8 @@ a::selection  {
                 background-color: #424242;
                 color: white;
 }
-#parra6    {
+div > p    {
               background-color: lightgrey;
-              margin: auto;
               padding: 10px;
               font-family: helvetica;
               font-weight: bold;

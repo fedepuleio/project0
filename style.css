@@ -2,13 +2,6 @@ body {
           background-color: #f2f2f2;
           font-family: helvetica;
 }
-
-div > h1   {
-            font-weight: bold;
-            border: 5px solid black;
-            text-align: center;
-            color: #d93b3b;
-}
 a::before     {
                 content: \261B;
 }
@@ -16,35 +9,31 @@ a::selection  {
                 background-color: #5aad76;
                 color: white;
 }
-
-
 #myart {
             font-weight: bold;
             border: 8px solid black;
-            color: blue
+            color: blue;
+}
+
+div > h1   {
+            font-weight: bold;
+            border: 5px solid black;
+            text-align: center;
+            color: #d93b3b;
 }
 #volver {
           background-color: #dbdbdb;
-          border: 3px solid #636262;
-          color: white;
           padding: 10px 20;
           text-align: center;
-          text-decoration: inherit;
-          display: inline-block;
           font-family: sans-serif;
           font-weight: bold;
           font-size: 20px;
-          width: 1000px;
-
-
+          width: 300px;
 }
 #volver:hover {   background-color: darkgrey;
-                  color; white;
+
 }
-#volver::selection  {
-                background-color: #424242;
-                color: white;
-}
+
 div > p    {
               background-color: lightgrey;
               padding: 10px;
@@ -83,6 +72,6 @@ ol div {
       margin-right: auto;
 }
 .botonesmenu {
-  magin: 20px;
+  margin: 50px;
   padding: 20px;
 }

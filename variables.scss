@@ -2,9 +2,8 @@ $color: #636262;
 
 %parrafo {
             font-size:20px;
-            font-family: sans-serif;
-            margin-left: auto;
-            padding: 5px;
+            margin: 30px;
+            padding: 10px;
             color: $color;
             text-align: center;
 }
@@ -16,15 +15,17 @@ $color: #636262;
 .parra2, .parra4 ,  {
                     @extend %parrafo;
                     background-color:#cccccc;
+
 }
+
+
 div   {
           h2  {     text-align:center;
                     color:#273c66;
-                    text-decoration: underline;
+
 
               }
           h3  {
-                    background-color: #5aad76;
                     font-size: bold;
                     text-align: center;
                     color:#244a34;

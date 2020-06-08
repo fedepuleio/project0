@@ -9,15 +9,8 @@ a::selection  {
                 background-color: #5aad76;
                 color: white;
 }
-#myart {
-            font-weight: bold;
-            border: 8px solid black;
-            color: blue;
-}
-
 div > h1   {
             font-weight: bold;
-            border: 5px solid black;
             text-align: center;
             color: #d93b3b;
 }

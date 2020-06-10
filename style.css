@@ -13,6 +13,8 @@ div > h1   {
             font-weight: bold;
             text-align: center;
             color: #d93b3b;
+            padding: 25px;
+            text-decoration: underline;
 }
 #volver {
           background-color: #dbdbdb;
@@ -65,6 +67,7 @@ ol div {
       margin-right: auto;
 }
 .botonesmenu {
-  margin: 50px;
-  padding: 20px;
-}
+  margin: 20px;
+  padding: 10px;
+
+  }

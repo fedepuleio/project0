@@ -31,17 +31,12 @@ div > h1   {
 
 div > p    {
               background-color: lightgrey;
-              padding: 10px;
+              margin:20px;
+              padding: 20px;
               font-family: helvetica;
               font-weight: bold;
               font-size: 20px;
               text-align: center;
-}
-
-@media print  {
-                .parra5 {
-                  display: none;
-                }
 }
 .imagenes {
             display: flex;
@@ -69,5 +64,19 @@ ol div {
 .botonesmenu {
   margin: 20px;
   padding: 10px;
+
+  }
+
+  table {
+     padding:10px;
+     margin: 20px;
+
+  }
+  @media print  {
+                  .parra5 {
+                    display: none;
+                  }
+  }
+  @@media query {
 
   }

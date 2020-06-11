@@ -1,18 +1,18 @@
 .parra2, .parra4, .parra1, .parra3 {
   font-size: 20px;
-  margin: 30px;
-  padding: 10px;
-  color: #636262;
+  margin: 50px;
+  padding: 15px;
+  color: #383838;
   text-align: center;
 }
 
 .parra1, .parra3 {
-  background-color: #787878;
+  background-color: #969696;
   color: white;
 }
 
 .parra2, .parra4 {
-  background-color: #cccccc;
+  background-color: #bababa;
 }
 
 div h2 {

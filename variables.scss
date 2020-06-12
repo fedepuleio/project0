@@ -1,35 +1,30 @@
 $color: #383838;
 
-%parrafo {
-            font-size:20px;
-            margin: 50px;
-            padding: 15px;
+%origenes {
             color: $color;
+            font-family: sans-serif;
+            font-weight: bold;
             text-align: center;
-}
-.parra1, .parra3, {
-                    @extend %parrafo;
-                    background-color:#969696;
-                    color: white;
-}
-.parra2, .parra4 ,  {
-                    @extend %parrafo;
-                    background-color:#bababa;
 
 }
-
-
+.col {
+        @extend %origenes;
+        font-size: 30px;
+      }
+.col-8 {
+          @extend %origenes;
+          font-size: 20px;
+          padding: 20px;
+}
 div   {
           h2  {     text-align:center;
                     color:#273c66;
                     padding: 15px;
-
-
-              }
+                  }
           h3  {
                     font-size: bold;
                     text-align: center;
                     color:#244a34;
                     text-decoration: underline;
-              }
+                  }
 }

@@ -6,11 +6,11 @@
 }
 
 .col {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .col-8 {
-  font-size: 20px;
+  font-size: 15px;
   padding: 20px;
 }
 
@@ -24,6 +24,57 @@ div h3 {
   text-align: center;
   color: #244a34;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  td:nth-of-type(1):before {
+    content: "Style";
+  }
+
+  td:nth-of-type(2):before {
+    content: "Technique";
+  }
+
+  td:nth-of-type(3):before {
+    content: "Used Colors";
+  }
+
+  td:nth-of-type(4):before {
+    content: "Example";
+  }
 }
 
 /*# sourceMappingURL=variables.css.map */

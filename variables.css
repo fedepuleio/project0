@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .col-8, .col {
   color: #383838;
   font-family: sans-serif;
@@ -46,8 +47,6 @@ div h3 {
     border-bottom: 1px solid #eee;
     position: relative;
     padding-left: 50%;
-    text-align: center;
-    color: #383838;
   }
 
   td:before {
@@ -57,8 +56,6 @@ div h3 {
     width: 45%;
     padding-right: 10px;
     white-space: nowrap;
-    text-align: center;
-    color: #383838;
   }
 }
 #volver {
@@ -67,6 +64,49 @@ div h3 {
 
 .text-center {
   margin: 10px 20;
+}
+
+@media (min-width: 760px) {
+  .media1::before {
+    content: "Old School most famous artist.";
+  }
+
+  .media2::before {
+    content: "Buenos aires-based argentinian artist.";
+  }
+
+  .media3::before {
+    content: "French artist that studied graphic design.";
+  }
+
+  .media4::before {
+    content: "Old School most famous artist";
+  }
+
+  .media5::before {
+    content: "Buenos aires-based argentinian artist.";
+  }
+}
+@media (max-width: 759px) {
+  .media1::before {
+    content: "Norman Keith Collins (January 14, 1911 – June 12, 1973), known popularly as Sailor Jerry, was a prominent American tattoo artist in Hawaii who was well known for his sailor tattoos.";
+  }
+
+  .media2::before {
+    content: "Argentinian tattoo artist based in the City of Buenos Aires. He is known for using vibrant colours and creating very unique pieces.";
+  }
+
+  .media3::before {
+    content: "French artist that studied graphic design so he could be able to improve his geometric designs, as que wanted to make them more complex.";
+  }
+
+  .media4::before {
+    content: "Excellent artist from UK. I'm impressed about how black ink stays in the skin when he tattooes, and the shading is really strong.";
+  }
+
+  .media5::before {
+    content: "Argentinian artist based in Quilmes, Buenos Aires. In my opinion, he's the best realism tattoo artist in South America.";
+  }
 }
 
 /*# sourceMappingURL=variables.css.map */

@@ -66,7 +66,7 @@ div h3 {
   margin: 10px 20;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 759px) {
   .media1::before {
     content: "Old School most famous artist.";
   }
@@ -87,7 +87,7 @@ div h3 {
     content: "Buenos aires-based argentinian artist.";
   }
 }
-@media (max-width: 499px) {
+@media (min-width: 760px) {
   .media1::before {
     content: "Norman Keith Collins (January 14, 1911 – June 12, 1973), known popularly as Sailor Jerry, was a prominent American tattoo artist in Hawaii who was well known for his sailor tattoos.";
   }

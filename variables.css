@@ -46,13 +46,12 @@ div h3 {
     border: none;
     border-bottom: 1px solid #eee;
     position: relative;
+    padding-left: 20%;
     text-align: center;
   }
 
   td:before {
     position: absolute;
-    top: 6px;
-    left: 6px;
     width: 15%;
     padding-right: 5px;
     white-space: nowrap;

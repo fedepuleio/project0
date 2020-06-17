@@ -47,15 +47,17 @@ tr { border: 1px solid #ccc; }
 		border: none;
 		border-bottom: 1px solid #eee;
 		position: relative;
-		padding-left: 50%;
-  	}
+		padding-left: 20%;
+    text-align: center;
+      	}
   td:before {
 		position: absolute;
 		top: 6px;
 		left: 6px;
-		width: 45%;
-		padding-right: 10px;
+		width: 15%;
+		padding-right: 5px;
 		white-space: nowrap;
+    text-align: center;
 	}
 }
 #volver {
@@ -72,7 +74,7 @@ tr { border: 1px solid #ccc; }
         content: "Old School most famous artist."
     }
     .media2::before {
-        content: "Buenos aires-based argentinian artist."
+        content: "Buenos Aires-based argentinian artist."
     }
     .media3::before {
         content: "French artist that studied graphic design."
@@ -81,8 +83,11 @@ tr { border: 1px solid #ccc; }
         content: "Old School most famous artist"
     }
     .media5::before {
-        content: "Buenos aires-based argentinian artist."
+        content: "Buenos Aires-based argentinian artist."
     }
+    .query1::before {
+      content: "The answer is.. a lot! here you have some of them:"
+  }
   }
 @media (min-width: 760px) {
       .media1::before {
@@ -100,4 +105,7 @@ tr { border: 1px solid #ccc; }
       .media5::before {
           content: "Argentinian artist based in Quilmes, Buenos Aires. In my opinion, he's the best realism tattoo artist in South America."
       }
+      .query1::before {
+        content: "Actually, it's a wide answer, because all the time there are new styles comming up that didn't exist before, but here is a list with some styles so you can choose which one like the most!"
     }
+  }

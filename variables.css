@@ -60,11 +60,11 @@ div h3 {
     text-align: center;
     color: #383838;
   }
-
-  #volver {
-    text-align: center;
-  }
 }
+#volver {
+  text-align: center;
+}
+
 .text-center {
   margin: 10px 20;
 }
